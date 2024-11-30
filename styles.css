@@ -17,6 +17,8 @@ html,body{
   --viewed: gray;
   --bg-main: #000;
   --bg-live: red;
+  --ul-bg: #272727;
+  --radius: 8px;
 }
 
 .stories-menu {
@@ -26,6 +28,9 @@ html,body{
   justify-content: space-around;
   max-width: 320px;
   margin: 2em auto;
+  background: var(--ul-bg);
+  border-radius: var(--radius);
+  padding-top: 0.6rem;
 }
 
 .story {
